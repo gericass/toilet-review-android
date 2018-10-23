@@ -1,4 +1,4 @@
-package www.gericass.com.toilet_review_android
+package www.gericass.com.toilet
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

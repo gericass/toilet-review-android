@@ -1,0 +1,14 @@
+android {
+    flavorDimensions "develop"
+    productFlavors {
+        develop {
+            dimension "develop"
+            resValue "string", "app_name", "Toilet Dev"
+            buildConfigField "String", "BASE_URL", "\"http://private-906b6-keitatakahashi.apiary-mock.com\""
+        }
+        production {
+            resValue "string", "app_name", "Toilet"
+            buildConfigField "String", "BASE_URL", "\"http://private-906b6-keitatakahashi.apiary-mock.com\""
+        }
+    }
+}
