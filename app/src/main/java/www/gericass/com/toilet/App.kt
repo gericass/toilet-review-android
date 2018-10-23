@@ -1,6 +1,5 @@
 package www.gericass.com.toilet
 
-import android.support.v4.app.Fragment
 import com.facebook.stetho.Stetho
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.jakewharton.threetenabp.AndroidThreeTen
