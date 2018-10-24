@@ -4,7 +4,7 @@ android {
         develop {
             dimension "develop"
             resValue "string", "app_name", "Toilet Dev"
-            buildConfigField "String", "BASE_URL", "\"http://private-906b6-keitatakahashi.apiary-mock.com\""
+            buildConfigField "String", "BASE_URL", "\"http://d9ca27b2.ngrok.io\""
         }
         production {
             resValue "string", "app_name", "Toilet"

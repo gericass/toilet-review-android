@@ -1,4 +1,4 @@
-package www.gericass.com.toilet.di
+package www.gericass.com.toilet.di.activity
 
 import android.support.v7.app.AppCompatActivity
 import dagger.Binds

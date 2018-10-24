@@ -1,2 +1,4 @@
 <resources>
+    <string name="server_client_id">835367564556-ri3qpkm6o572uld73bri7hp8h00ojjkn.apps.googleusercontent.com</string>
+    <string name="authentication_error">ログインに失敗しました</string>
 </resources>

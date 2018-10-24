@@ -2,7 +2,6 @@ package www.gericass.com.toilet.di
 
 import dagger.BindsInstance
 import dagger.Component
-import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule
 import www.gericass.com.toilet.App
@@ -12,7 +11,9 @@ import javax.inject.Singleton
 @Component(modules = [
     AndroidSupportInjectionModule::class,
     ApiModule::class,
-    ActivityBuilder::class
+    ActivityBuilder::class,
+    ViewModelModule::class,
+    RepositoryModule::class
 ])
 interface AppComponent : AndroidInjector<App> {
     @Component.Builder
